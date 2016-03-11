@@ -13,6 +13,8 @@
 		2CB7DA081C9262F400AA116A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7DA061C9262F400AA116A /* Main.storyboard */; };
 		2CB7DA0A1C9262F400AA116A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7DA091C9262F400AA116A /* Assets.xcassets */; };
 		2CB7DA0D1C9262F400AA116A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7DA0B1C9262F400AA116A /* LaunchScreen.storyboard */; };
+		2CB7DA161C9263B100AA116A /* TicTacToeGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7DA151C9263B100AA116A /* TicTacToeGameVC.m */; };
+		2CB7DA1A1C9263FA00AA116A /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7DA191C9263FA00AA116A /* TicTacToeGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2CB7DA091C9262F400AA116A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB7DA0C1C9262F400AA116A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB7DA0E1C9262F400AA116A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB7DA141C9263B100AA116A /* TicTacToeGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGameVC.h; sourceTree = "<group>"; };
+		2CB7DA151C9263B100AA116A /* TicTacToeGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGameVC.m; sourceTree = "<group>"; };
+		2CB7DA181C9263FA00AA116A /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicTacToeGame.h; path = Model/TicTacToeGame.h; sourceTree = "<group>"; };
+		2CB7DA191C9263FA00AA116A /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeGame.m; path = Model/TicTacToeGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		2CB7D9FC1C9262F400AA116A /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				2CB7DA171C9263C900AA116A /* Model */,
+				2CB7DA141C9263B100AA116A /* TicTacToeGameVC.h */,
+				2CB7DA151C9263B100AA116A /* TicTacToeGameVC.m */,
 				2CB7DA001C9262F400AA116A /* AppDelegate.h */,
 				2CB7DA011C9262F400AA116A /* AppDelegate.m */,
 				2CB7DA031C9262F400AA116A /* ViewController.h */,
@@ -77,6 +86,15 @@
 				2CB7D9FE1C9262F400AA116A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CB7DA171C9263C900AA116A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7DA181C9263FA00AA116A /* TicTacToeGame.h */,
+				2CB7DA191C9263FA00AA116A /* TicTacToeGame.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +169,9 @@
 			files = (
 				2CB7DA051C9262F400AA116A /* ViewController.m in Sources */,
 				2CB7DA021C9262F400AA116A /* AppDelegate.m in Sources */,
+				2CB7DA1A1C9263FA00AA116A /* TicTacToeGame.m in Sources */,
 				2CB7D9FF1C9262F400AA116A /* main.m in Sources */,
+				2CB7DA161C9263B100AA116A /* TicTacToeGameVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +320,7 @@
 				2CB7DA131C9262F400AA116A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
