@@ -7,14 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GamePiece.h"
 
 @interface TicTacToeGame : NSObject
 
-@property(readonly,getter=isGameOver) BOOL gameOver;
+typedef enum{
+    PLAYING = 0,
+    ENDED_WITH_WINNER = 1,
+    ENDED_WITH_TIE = 2
+} GameStates;
+
+typedef NSUInteger GameState;
 
 
--(void)makeMoveAtIndex:(NSUInteger)index;
--(NSInteger)getPieceStateAtIndex:(NSUInteger)index;
+@property (nonatomic,readonly) NSString *winner;
+
+
+-(GameState)makeMoveAtIndex:(NSUInteger)index;
+-(GamePiece *)getPieceAtIndex:(NSUInteger)index;
 
 
 

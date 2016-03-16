@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5574A61C99B5A00092D707 /* GamePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5574A51C99B5A00092D707 /* GamePiece.m */; };
 		2CB7D9FF1C9262F400AA116A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D9FE1C9262F400AA116A /* main.m */; };
 		2CB7DA021C9262F400AA116A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7DA011C9262F400AA116A /* AppDelegate.m */; };
 		2CB7DA051C9262F400AA116A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7DA041C9262F400AA116A /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5574A41C99B5A00092D707 /* GamePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePiece.h; sourceTree = "<group>"; };
+		2C5574A51C99B5A00092D707 /* GamePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePiece.m; sourceTree = "<group>"; };
 		2CB7D9FA1C9262F400AA116A /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB7D9FE1C9262F400AA116A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CB7DA001C9262F400AA116A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 			children = (
 				2CB7DA181C9263FA00AA116A /* TicTacToeGame.h */,
 				2CB7DA191C9263FA00AA116A /* TicTacToeGame.m */,
+				2C5574A41C99B5A00092D707 /* GamePiece.h */,
+				2C5574A51C99B5A00092D707 /* GamePiece.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				2CB7DA021C9262F400AA116A /* AppDelegate.m in Sources */,
 				2CB7DA1A1C9263FA00AA116A /* TicTacToeGame.m in Sources */,
 				2CB7D9FF1C9262F400AA116A /* main.m in Sources */,
+				2C5574A61C99B5A00092D707 /* GamePiece.m in Sources */,
 				2CB7DA161C9263B100AA116A /* TicTacToeGameVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
