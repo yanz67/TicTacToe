@@ -68,7 +68,7 @@
         if ([self didAnyoneWin]){
             self.gameState = ENDED_WITH_WINNER;
             return self.gameState;
-        }else if (![self isGameOver]){
+        }else if ([self isGameOver]){
             self.gameState = ENDED_WITH_TIE;
             return self.gameState;
         }
@@ -99,7 +99,7 @@
 -(BOOL)isGameOver
 {
     for (int i = 0;i < [self.gameArray count];i++){
-        if (self.gameArray[i] == 0) {
+        if ([self.gameArray[i] gamePieceValue] == 0) {
             return false;
         }
     }
@@ -112,7 +112,7 @@
     //check rows for winner
     for (int i = 0; i < 3;i++){
         sum = 0;
-        for (int j = i*2; j < (i+1)*3;j++){
+        for (int j = i*3; j < (i+1)*3;j++){
             sum += [self.gameArray[j] gamePieceValue];
         }
         if([self winnerWithSum:sum]) return true;

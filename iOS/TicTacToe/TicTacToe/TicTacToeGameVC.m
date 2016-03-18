@@ -9,6 +9,8 @@
 #import "TicTacToeGameVC.h"
 #import "GamePiece.h"
 #import "TicTacToeGame.h"
+#import <AWSCore/AWSCore.h>
+#import <AWSCognito/AWSCognito.h>
 
 
 @interface TicTacToeGameVC()
@@ -37,6 +39,21 @@
 
 -(void)viewDidLoad
 {
+    AWSCognitoCredentialsProvider  *credentialsPovider =  [AWSServiceManager defaultServiceManager].defaultServiceConfiguration.credentialsProvider;
+
+    // Retrieve your Amazon Cognito ID.
+   
+   [[credentialsPovider getIdentityId] continueWithBlock:^id _Nullable(AWSTask * _Nonnull task) {
+       if (task.error) {
+           NSLog(@"Error getting ID");
+       }else{
+           NSLog(@"ID: %@",task.result);
+       }
+       return nil;
+   }];
+    
+    
+    
     [self updateUI];
 }
 -(void)updateUI

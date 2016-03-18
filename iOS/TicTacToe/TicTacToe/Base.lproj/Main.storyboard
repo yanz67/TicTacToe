@@ -20,14 +20,23 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8G-78-yfT">
                                 <rect key="frame" x="254" y="131" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="8Eh-d7-Kmg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIl-cn-3SI">
                                 <rect key="frame" x="153" y="246" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
                                 <state key="normal">
-                                    <color key="titleShadowColor" red="0.027596272099999999" green="0.2409691447" blue="0.5435082873" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="BHM-m4-iUy"/>
@@ -35,30 +44,51 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifv-v9-5kx">
                                 <rect key="frame" x="254" y="246" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="93" id="cHa-rh-gnh"/>
                                     <constraint firstAttribute="height" constant="107" id="n5o-md-prg"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="yGd-po-mZo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3x-MH-s2V">
                                 <rect key="frame" x="355" y="131" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="HNA-us-sKq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kS9-4i-xrZ">
                                 <rect key="frame" x="355" y="246" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="lL3-Vs-Xo4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5A-DK-wof">
                                 <rect key="frame" x="153" y="131" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
                                 <state key="normal">
-                                    <color key="titleShadowColor" red="0.027596272099999999" green="0.2409691447" blue="0.5435082873" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="6Xd-Qa-sAA"/>
@@ -66,20 +96,35 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-mz-H7g">
                                 <rect key="frame" x="254" y="361" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="RFd-iD-Thc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOr-MJ-Emd">
                                 <rect key="frame" x="355" y="361" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="JEE-5J-yl1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTA-zd-bB6">
                                 <rect key="frame" x="153" y="361" width="93" height="107"/>
+                                <color key="backgroundColor" red="0.074509806930000005" green="0.58039218189999997" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="73"/>
                                 <state key="normal">
-                                    <color key="titleShadowColor" red="0.027596272099999999" green="0.2409691447" blue="0.5435082873" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.97254908080000002" green="0.78823536630000002" blue="0.047058828179999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="T8w-pi-Zbb" eventType="touchUpInside" id="CUR-AJ-5jz"/>
@@ -140,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqt-2G-HFE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="514" y="415"/>
+            <point key="canvasLocation" x="389" y="358"/>
         </scene>
     </scenes>
 </document>
